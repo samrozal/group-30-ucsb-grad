@@ -1,6 +1,6 @@
 ---
 title: "group-30-ucsb-grad"
-author: "Sam Rozal"
+author: "Sam Rozal and Lauren Harris"
 date: "11/13/2021"
 output: html_document
 ---
