@@ -1,0 +1,17 @@
+---
+title: "group-30-ucsb-grad"
+author: "Sam Rozal"
+date: "11/13/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(here)
+```
+
+```{r Sam}
+ucsb_grad <- read_csv(here("data","ucsb_grad_data.csv"))
+```
+
