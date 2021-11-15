@@ -20,7 +20,11 @@ ucsb_grad <- read_csv(here("data","ucsb_grad_data.csv"))
 ggplot(data = ucsb_grad, aes(x = year_abbr, y = domestic_enrollment, fill = ethnicity)) +
   geom_col(position="fill") + # convert from absolute count to proportions
   labs(x="Year",
-       y= "Propotion of Domestic Enrollment") #rename axis labels
+       y= "Propotion of Domestic Enrollment",
+       title = "Ethnicities of Domestic UCSB Students (2008-2019)",
+       fill = "Ethnicity or Race") + #rename axis labels
+  theme_minimal()
 
 ```
 
+**Figure 1.** Proportions of ethnicities/races for domestically-enrolled students at the University of California, Santa Barbara (UCSB) from `r min(ucsb_grad$year_abbr)` to `r max(ucsb_grad$year_abbr)`. 
