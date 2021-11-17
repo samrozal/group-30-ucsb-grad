@@ -1,5 +1,5 @@
 ---
-title: "University of California - domestic graduate enrollment (2008-2019) (HARRIS & ROZAL)"
+title: "Group 30 - University of California - domestic graduate enrollment (2008-2019)"
 author: "Sam Rozal and Lauren Harris"
 date: "11/13/2021"
 output: html_document
@@ -23,7 +23,7 @@ ggplot(data = ucsb_grad, aes(x = year_abbr, y = domestic_enrollment, fill = ethn
        y= "Propotion of Domestic Enrollment",
        title = "Ethnicities of Domestic UCSB Students (2008-2019)",
        fill = "Ethnicity or Race") + #rename axis labels
-  theme_minimal()
+  theme_minimal() 
 
 ```
 
