@@ -28,3 +28,5 @@ ggplot(data = ucsb_grad, aes(x = year_abbr, y = domestic_enrollment, fill = ethn
 ```
 
 **Figure 1.** Proportions of ethnicities/races for domestically-enrolled students at the University of California, Santa Barbara (UCSB) from `r min(ucsb_grad$year_abbr)` to `r max(ucsb_grad$year_abbr)`. 
+
+**Citation**: Data pulled from the [UCSB Office of Budget and Planning Campus Profiles](https://bap.ucsb.edu/institutional-research/campus-profiles)
